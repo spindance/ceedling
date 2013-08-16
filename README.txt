@@ -17,7 +17,8 @@ Create this directory in your project root using the following command:
 
     git clone git@github.com:spindance/ceedling
 
-This should create a "ceedling" directory that is a peer of, e.g., our FreeRTOS or LwIP directories
+This should create a "ceedling" directory that is
+a peer of, e.g., our FreeRTOS or LwIP directories
 in the root of your project directory.
 
 
