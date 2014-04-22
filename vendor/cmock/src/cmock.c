@@ -8,6 +8,7 @@
 #include "cmock.h"
 
 //define CMOCK_MEM_DYNAMIC to grab memory as needed with malloc
+#define CMOCK_MEM_DYNAMIC
 //when you do that, CMOCK_MEM_SIZE is used for incremental size instead of total
 #ifdef CMOCK_MEM_STATIC
 #undef CMOCK_MEM_DYNAMIC
