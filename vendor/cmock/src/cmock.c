@@ -8,6 +8,7 @@
 #include "cmock.h"
 
 //define CMOCK_MEM_DYNAMIC to grab memory as needed with malloc
+//#define CMOCK_MEM_DYNAMIC
 //when you do that, CMOCK_MEM_SIZE is used for incremental size instead of total
 #ifdef CMOCK_MEM_STATIC
 #undef CMOCK_MEM_DYNAMIC
@@ -29,7 +30,7 @@
 
 //amount of memory to allow cmock to use in its internal heap
 #ifndef CMOCK_MEM_SIZE
-#define CMOCK_MEM_SIZE (32768)
+#define CMOCK_MEM_SIZE (32768*2)
 #endif
 
 //automatically calculated defs for easier reading
